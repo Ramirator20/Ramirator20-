@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Más información</title>
+    <title>Información personal</title>
 
-    <meta http-equiv="refresh" content="0; url=https://youtu.be/dQw4w9WgXcQ">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            overflow: hidden;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
 </head>
+
 <body>
-    <p>Redirigiendo...</p>
+
+    <video id="rickroll" autoplay playsinline controls>
+        <source src="Rickroll.mp4" type="video/mp4">
+        Tu navegador no puede reproducir este video.
+    </video>
+
 </body>
 </html>
